@@ -1,0 +1,121 @@
+.App {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+* {
+  margin: 0px;
+}
+body {
+  background-color: beige;
+}
+.main {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin-bottom: 30px;
+  padding: 12px;
+  background-color: steelblue;
+  color: yellow;
+  font-size: 46px;
+  text-decoration: underline;
+  font-family: cursive;
+}
+#brand {
+  text-decoration: underline;
+  position: absolute;
+  color: purple;
+  font-size: 20px;
+  left: 16px;
+  top: 1px;
+  font-weight: bold;
+}
+.head2 {
+  padding: 16px;
+  font-size: 26px;
+  color: red;
+  box-shadow: 1px 1px 3px black;
+  border-radius: 12px;
+}
+
+.meaning {
+  font-weight: 600;
+  margin: 42px;
+}
+.meaning span {
+  font-family: cursive;
+  border-radius: 12px;
+  padding: 12px;
+  color: blue;
+  font-size: 20px;
+  box-shadow: 1px 1px 4px black;
+}
+input {
+  box-shadow: 1px 1px 2px black;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+}
+.info {
+  text-shadow: 1px 2px 5px black;
+  margin-top: 22px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.para {
+  margin-top: 55px;
+  padding: 8px;
+  box-shadow: 2px 2px 3px black;
+  font-size: 22px;
+  font-weight: 600;
+  color: red;
+  border: 1px solid black;
+  border-radius: 6px;
+  background-color: whitesmoke;
+}
+
+@media screen and (max-width: 990px) {
+  .para {
+    padding: 2px;
+    font-size: 16px;
+  }
+  .meaning span {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .main {
+    font-size: 22px;
+  }
+
+  .head2 {
+    font-size: 18px;
+  }
+  #brand {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .main {
+    width: 100%;
+    font-size: 24px;
+  }
+  input {
+    font-size: 20px;
+  }
+  .para {
+    padding: 3px;
+    font-size: 12px;
+  }
+  #emojiArr {
+    font-size: 24px;
+  }
+  #brand {
+    font-size: 10px;
+    /* left: 16px; */
+    /* top: 1px; */
+    font-weight: bold;
+  }
+}
